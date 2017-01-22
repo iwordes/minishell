@@ -6,7 +6,7 @@
 /*   By: iwordes <iwordes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 16:18:53 by iwordes           #+#    #+#             */
-/*   Updated: 2017/01/21 19:35:22 by iwordes          ###   ########.fr       */
+/*   Updated: 2017/01/22 10:24:15 by iwordes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ static char		*g_builtins[] =
 	"exit",
 	"help",
 	"setenv",
+	"tropicool",
 	"unsetenv",
 	NULL
 };
@@ -34,6 +35,7 @@ static int		(*g_builtin[])(char**) =
 	bi_exit,
 	bi_help,
 	bi_setenv,
+	bi_tropicool,
 	bi_unsetenv
 };
 

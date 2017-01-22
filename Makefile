@@ -6,7 +6,7 @@
 #    By: iwordes <iwordes@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/12/06 20:42:00 by iwordes           #+#    #+#              #
-#    Updated: 2017/01/21 20:04:18 by iwordes          ###   ########.fr        #
+#    Updated: 2017/01/22 10:24:52 by iwordes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ CF      += -L libfs -L libft -l fs -l ft
 
 SRC     := main.c init.c minishell.c uninit.c
 SRC     += arg_cnt.c arg_env.c arg_len.c arg_next.c arg_parse.c
-SRC     += bi_nanners.c
+SRC     += bi_nanners.c bi_tropicool.c
 SRC     += bi_cd.c bi_echo.c bi_env.c bi_exit.c bi_help.c bi_setenv.c bi_unsetenv.c
 SRC     += cmd_cnt.c cmd_exec.c cmd_next.c cmd_parse.c cmd_prompt.c cmd_split.c
 SRC     += destroy_argv.c destroy_cmd.c

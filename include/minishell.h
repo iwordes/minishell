@@ -6,7 +6,7 @@
 /*   By: iwordes <iwordes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/11 11:24:12 by iwordes           #+#    #+#             */
-/*   Updated: 2017/01/21 20:04:35 by iwordes          ###   ########.fr       */
+/*   Updated: 2017/01/22 10:24:42 by iwordes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ int				bi_exit(char **argv);
 int				bi_help(char **argv);
 int				bi_nanners(char **argv);
 int				bi_setenv(char **argv);
+int				bi_tropicool(char **argv);
 int				bi_unsetenv(char **argv);
 
 size_t			cmd_cnt(const char *input);

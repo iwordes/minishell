@@ -6,7 +6,7 @@
 /*   By: iwordes <iwordes@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/11 20:29:43 by iwordes           #+#    #+#             */
-/*   Updated: 2017/01/18 10:02:45 by iwordes          ###   ########.fr       */
+/*   Updated: 2017/01/22 09:14:41 by iwordes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ int			bi_cd(char **argv)
 		return (1);
 	else if (chdir(path) == -1)
 		return (1);
-	env_setkey("OLDPWD", env_get("PWD"));
-	env_setkey("PWD", getcwd(NULL, 4096));
+	pwd_update();
 	return (0);
 }
